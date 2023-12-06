@@ -76,20 +76,24 @@
       methods: {
         onSubmitForm() {
           if (this.$refs.form.validate()) {
+            //store 폴더의 users파일에 있는 action중에 signUp이 실행
             this.$store.dispatch('users/signUp', {
               nickname: this.nickname,
               email: this.email,
             })
-              .then(() => {
+              .then(() => {//회원 가입 action은 비동기 작업이므로, then으로 작업 완료 후, 메인페이지로 리다이렉트 처리 
                 this.$router.push({
                   path: '/',
                 });
               })
+              //then 처리 안하면 회원가입하고 나서 바로 메인페이지로 라우팅되버리거나, 실패했을 때도 메인페이지로 라우팅되버림
               .catch(() => {
                 alert('회원가입 실패');
               });
           }
         }
+
+
       },
       head() {
         return {
