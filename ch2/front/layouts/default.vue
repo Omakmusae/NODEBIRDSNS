@@ -18,7 +18,6 @@
                 </v-toolbar-items>
             </v-toolbar>
         </nav>
-
         <!-- 그리드 시스템 구성 : 보통은 세로를 12등분으로 분할하여 왼쪽 4칸은 로그인창, 나머지 8칸을 컨텐츠창 -->
         <v-row no-gutters>
             <!-- 로그인창 -->
@@ -45,7 +44,6 @@
         components: {
             LoginForm,
         },
-        
     }
 </script>
 
