@@ -26,7 +26,6 @@
                 </v-container>
             </v-card>
         </v-container>
-  
     </div>
 </template>
 
@@ -35,19 +34,11 @@
     import FollowList from '~/components/FollowList';
     
     export default {
-
         
         components: {
             FollowList
         },
 
-
-        layout:'admin',
-        data() {
-            return {
-                name:"Nuxt.js",
-            }
-        },
         head(){
             return {
                 title:'프로필'
