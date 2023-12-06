@@ -1,13 +1,11 @@
 <template>
     <div>
-        Hello {{name}}
         <nav>
-            <!--  nuxt-link 태그를 통해 네비게이션 bar 만들 수 있음, nuxt가 nuxt-link 태그를 html의 a태그로 만들어줌 -->
             <nuxt-link to="/">Home</nuxt-link>
             <nuxt-link to="/profile">Profile</nuxt-link>
             <nuxt-link to="/signup">Signup</nuxt-link>
         </nav>
-        <div>main page</div>
+        sign up page
     </div>
 </template>
 
@@ -23,7 +21,8 @@
 
 
 
-
 <style>
+
+
 
 </style>

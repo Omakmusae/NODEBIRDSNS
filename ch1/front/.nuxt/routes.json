@@ -1,0 +1,23 @@
+[
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "C:\\\\Users\\\\quintet\\\\Desktop\\\\dev\\\\personal\\\\1_SNS_vue_nuxt\\\\NODEBIRDSNS\\\\ch1\\\\front\\\\pages\\\\profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_7e617624"
+  },
+  {
+    "name": "signup",
+    "path": "/signup",
+    "component": "C:\\\\Users\\\\quintet\\\\Desktop\\\\dev\\\\personal\\\\1_SNS_vue_nuxt\\\\NODEBIRDSNS\\\\ch1\\\\front\\\\pages\\\\signup.vue",
+    "chunkName": "pages/signup",
+    "_name": "_62ce0e3a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\quintet\\\\Desktop\\\\dev\\\\personal\\\\1_SNS_vue_nuxt\\\\NODEBIRDSNS\\\\ch1\\\\front\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_08ff8ed7"
+  }
+]
