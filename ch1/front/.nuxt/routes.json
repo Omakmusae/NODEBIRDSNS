@@ -14,6 +14,13 @@
     "_name": "_62ce0e3a"
   },
   {
+    "name": "template",
+    "path": "/template",
+    "component": "C:\\\\Users\\\\quintet\\\\Desktop\\\\dev\\\\personal\\\\1_SNS_vue_nuxt\\\\NODEBIRDSNS\\\\ch1\\\\front\\\\pages\\\\template.vue",
+    "chunkName": "pages/template",
+    "_name": "_4ecb5af6"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\quintet\\\\Desktop\\\\dev\\\\personal\\\\1_SNS_vue_nuxt\\\\NODEBIRDSNS\\\\ch1\\\\front\\\\pages\\\\index.vue",
